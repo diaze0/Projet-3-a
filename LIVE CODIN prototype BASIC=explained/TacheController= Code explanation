@@ -1,0 +1,25 @@
+
+ The code starts by declaring a class called TacheController.
+
+ This is the controller that will be used to handle all requests for taches.
+
+ The index function returns a view with the name brief.edit, which displays an edit form for creating new taches and editing existing ones.
+
+ The create function returns a view with the name tache.create, which displays an edit form for creating new taches and updating existing ones (the update function).
+
+ The show function returns a view with the name brief/id, where id is equal to whatever was passed in as its argument when it was called from within this controller's index or create functions (e.g., if you call show('1') from within either of these two functions, then it would return brief/1).
+
+ Finally, there are three edit functions: one that handles displaying an edit form for editing any given individual record; another that handles displaying an edit form for editing any given individual record based on its ID; and finally one that handles displaying an edit form for deleting any given individual record based on its ID (note how this last one uses delete() instead of destroy(), because destroying records doesn't make sense here).
+
+ The code is the controller of a TacheController class.
+
+ It extends Controller and has the following methods: index() - This method returns a view with the brief's name as its title and an array of all taches in it.
+
+ create() - This method returns a view with the brief's ID as its title and an array of all fields for creating a new Tache object.
+
+ store() - This method creates a new Tache object, sets its properties to those passed in by the request, then saves it on behalf of that request.
+
+ The return value from this function is redirecting back to where we were before (the edit page).
+
+ show($id) - This method returns nothing, but does not throw any errors either
+

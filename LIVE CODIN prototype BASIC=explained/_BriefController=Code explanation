@@ -1,0 +1,22 @@
+ The code is a controller that extends the Controller class.
+
+ It has an index() method, create() method, store() method, show() method, edit() method and destroy() method.
+
+ The index(), create(), store(), show(), edit(), and destroy methods are public functions of the controller.
+
+ The code is a controller for the BriefController class.
+
+ The index() function returns a view that displays all of the briefs in the database.
+
+ The create() function returns a view that displays when creating a new brief.
+
+ The store() function creates and saves a new brief, returning redirecting to the index().
+
+ The show($id) function displays an individual's specific brief with their ID.
+
+ This will return to the index().
+
+ This will also display edit and update functions for each individual's specific brief.
+
+ These functions are called by using $id as an argument to these functions.
+
