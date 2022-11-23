@@ -1,0 +1,22 @@
+ The code is a controller that extends the Controller class.
+
+ It has an index() function, which returns a view with the name brief.assigner and assigns all of the apprenant objects to it.
+
+ The create(), store(), show(), edit(), update() and destroy() functions are defined in this controller.
+
+ The code is a controller for an apprenant.
+
+ The index function returns a view that displays all of the apprenants in the system.
+
+ The create function creates a new apprenant and assigns it to the $apprenant variable.
+
+ The code also returns a view with some data about the newly created apprenant.
+
+ The store function stores any new data into the database for an existing apprenant, or updates any existing data for an existing apprenant.
+
+ The code also returns a view with some data about the updated or stored information.
+
+ The show function retrieves an individual's assigned application from their record in order to display their information on screen.
+
+ It also returns a view with some data about
+

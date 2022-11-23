@@ -1,0 +1,20 @@
+ The code starts by declaring a class called assignerController.
+
+ This is the controller that will be used to handle all of the requests for assigning briefs.
+
+ It extends Controller and has an index() method, which returns a view with brief information about each assigned brief in the database.
+
+ The create() method creates new assignments and stores them in the database.
+
+ The show() method displays information about one specific assignment, while edit(), update(), destroy() methods are used to manage individual assignments within their respective contexts (e.g., editing or updating an existing assignment).
+
+ The code is a controller that extends the Controller class.
+
+ The index function returns a view with an array of all the brief assigners, and the create function creates a new brief assigner.
+
+ The store function creates an instance of Brief::create() for each request and assigns it to apprenant_brief::all().
+
+ The show function returns a view with just the id of the requested brief.
+
+ The edit function updates one of these instances by changing its id, and destroys one by deleting from apprenant_brief::where().
+
